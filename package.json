@@ -4,10 +4,19 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
+  "workspaces":[
+    "apps/*",
+    "packages/*"
+  ],
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "@xarc/app": "^11.0.0",
+    "@xarc/fastify-server": "^3.2.3",
+    "@xarc/react": "^1.0.0",
+    "@xarc/react-query": "^1.0.0",
+    "@xarc/react-redux": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
@@ -52,6 +61,9 @@
     "ts-node": "10.9.1",
     "typescript": "~5.3.2",
     "url-loader": "^4.1.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "@xarc/app-dev": "^11.0.0",
+    "@xarc/opt-postcss": "^2.0.0",
+    "@xarc/opt-stylus": "^2.0.0"
   }
 }
