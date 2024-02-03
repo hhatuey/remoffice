@@ -5,7 +5,7 @@ xrun.updateEnv(
     /**
      * Configure local development with http://localhost:3000
      */
-    HOST: "localhost",
+    HOST: "127.0.0.1",
     /**
      * In dev mode, a proxy server listens at `PORT` and forward requests to
      * to actual node.js app server and webpack dev server.
